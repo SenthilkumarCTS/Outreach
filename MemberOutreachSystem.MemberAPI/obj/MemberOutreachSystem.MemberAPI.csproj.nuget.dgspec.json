@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\data\\C_drive\\source\\repos\\MemberOutreachSystem.MemberAPI\\MemberOutreachSystem.MemberAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\data\\C_drive\\source\\repos\\LoginJWT\\LoginJWT.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\data\\C_drive\\source\\repos\\LoginJWT\\LoginJWT.csproj",
+        "projectName": "LoginJWT",
+        "projectPath": "D:\\data\\C_drive\\source\\repos\\LoginJWT\\LoginJWT.csproj",
+        "packagesPath": "C:\\Users\\ctsdotnetuser103\\.nuget\\packages\\",
+        "outputPath": "D:\\data\\C_drive\\source\\repos\\LoginJWT\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctsdotnetuser103\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Business\\MemberOutReachSystem.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Business\\MemberOutReachSystem.Business.csproj",
+        "projectName": "MemberOutReachSystem.Business",
+        "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Business\\MemberOutReachSystem.Business.csproj",
+        "packagesPath": "C:\\Users\\ctsdotnetuser103\\.nuget\\packages\\",
+        "outputPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctsdotnetuser103\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Data\\MemberOutReachSystem.Data.csproj": {
+                "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Data\\MemberOutReachSystem.Data.csproj"
+              },
+              "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj": {
+                "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Data\\MemberOutReachSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Data\\MemberOutReachSystem.Data.csproj",
+        "projectName": "MemberOutReachSystem.Data",
+        "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Data\\MemberOutReachSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\ctsdotnetuser103\\.nuget\\packages\\",
+        "outputPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctsdotnetuser103\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj": {
+                "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj",
+        "projectName": "MemberOutReachSystem.Domain",
+        "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\ctsdotnetuser103\\.nuget\\packages\\",
+        "outputPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctsdotnetuser103\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\data\\C_drive\\source\\repos\\MemberOutreachSystem.MemberAPI\\MemberOutreachSystem.MemberAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\data\\C_drive\\source\\repos\\MemberOutreachSystem.MemberAPI\\MemberOutreachSystem.MemberAPI.csproj",
+        "projectName": "MemberOutreachSystem.MemberAPI",
+        "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutreachSystem.MemberAPI\\MemberOutreachSystem.MemberAPI.csproj",
+        "packagesPath": "C:\\Users\\ctsdotnetuser103\\.nuget\\packages\\",
+        "outputPath": "D:\\data\\C_drive\\source\\repos\\MemberOutreachSystem.MemberAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctsdotnetuser103\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\data\\C_drive\\source\\repos\\LoginJWT\\LoginJWT.csproj": {
+                "projectPath": "D:\\data\\C_drive\\source\\repos\\LoginJWT\\LoginJWT.csproj"
+              },
+              "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Business\\MemberOutReachSystem.Business.csproj": {
+                "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Business\\MemberOutReachSystem.Business.csproj"
+              },
+              "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj": {
+                "projectPath": "D:\\data\\C_drive\\source\\repos\\MemberOutReachSystem.Domain\\MemberOutReachSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

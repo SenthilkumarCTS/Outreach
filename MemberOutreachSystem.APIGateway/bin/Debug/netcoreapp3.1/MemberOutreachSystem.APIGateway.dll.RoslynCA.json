@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.6.0.0",
+        "fileVersion": "3.6.0-4.20269.4 (c94e3215)",
+        "semanticVersion": "3.6.0",
+        "language": "en-GB"
+      },
+      "results": [
+        {
+          "ruleId": "S4507",
+          "level": "warning",
+          "message": "Make sure this debug feature is deactivated before delivering the code in production.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/data/C_drive/source/repos/MemberOutreachSystem.APIGateway/Startup.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 17,
+                  "endLine": 26,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3168",
+          "level": "warning",
+          "message": "Return 'Task' instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/data/C_drive/source/repos/MemberOutreachSystem.APIGateway/Startup.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 22,
+                  "endLine": 22,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S3168": {
+          "id": "S3168",
+          "shortDescription": "\"async\" methods should not return \"void\"",
+          "fullDescription": "An async method with a void return type is a \"fire and forget\" method best reserved for event handlers because there's no way to wait for the method's execution to complete and respond accordingly. There's also no way to catch exceptions thrown from the method.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3168",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S4507": {
+          "id": "S4507",
+          "shortDescription": "Delivering code in production with debug features activated is security-sensitive",
+          "fullDescription": "Delivering code in production with debug features activated is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4507",
+          "properties": {
+            "category": "Minor Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

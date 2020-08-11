@@ -1,0 +1,17 @@
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Domain\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.deps.json
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Domain\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.dll
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Domain\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.pdb
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.AssemblyInfo.cs
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.dll
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.pdb
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.deps.json
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.dll
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.pdb
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.csprojAssemblyReference.cache
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.AssemblyInfoInputs.cache
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.AssemblyInfo.cs
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.csproj.CoreCompileInputs.cache
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.dll
+D:\data\C_drive\source\repos\MemberOutReachSystem.Domain\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.pdb

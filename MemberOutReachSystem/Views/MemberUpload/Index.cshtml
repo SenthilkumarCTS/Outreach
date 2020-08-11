@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MemberOutReachSystem.Domain.MOS_MEMBER_DETAILS_BASE>
+@{
+    ViewData["Title"] = "Member Upload";
+}
+
+    <h1>Member Upload</h1>
+ 
+
+@using (Html.BeginForm("Index", "MemberUpload", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="file" />
+    <hr/>
+    <button type="submit">Upload</button>
+}
+
+@if(Model.Count() > 0)
+{
+    <hr />
+    <table class="table" border="1">
+        <caption>MemberUpload</caption>
+        <tr>
+            <th scope="col" >Member ID</th>
+            <th scope="col">Member Name</th>
+            <th scope="col">Member DOB</th>
+            <th scope="col">Age</th>
+            <th scope="col">Contact No</th>
+            <th scope="col">Address</th>
+        </tr>
+
+        @foreach (MemberOutReachSystem.Domain.MOS_MEMBER_DETAILS_BASE Mbr in Model)
+        {
+    <tr>
+        <td>@Mbr.MBR_IDENTIFIER</td>
+        <td>@Mbr.MBR_NAME</td>
+        <td>@Mbr.MBR_DOB</td>
+        <td>@Mbr.MBR_AGE</td>
+        <td>@Mbr.MBR_CONTACT_NO</td>
+        <td>@Mbr.MBR_ADDRESS1_TXT</td>
+    </tr>
+        }
+
+    </table>
+
+    <br />
+
+    <input type="button" value="Back" class="btn btn-success" onclick="location.href='@Url.Action("Index", "Home")'"   />
+}

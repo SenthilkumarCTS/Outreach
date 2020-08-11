@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MemberOutReachSystem.Domain.Assessment>
+
+<h1> Assessment</h1>
+<hr />
+<br />
+
+@foreach (var row in Model)
+{
+    @using (Html.BeginForm("SaveAssessment", "Assessment", FormMethod.Post))
+    {
+        @foreach (int row1 in row.QuestionId)
+        {
+            <div class="row">
+                <h4>  @Html.DisplayFor(QUESTION => row.QuestionMapping.FirstOrDefault(QUS => QUS.QUESTION_CD_ID == row1).QUESTION_NM) </h4>
+             </div>
+
+                <br />
+                <div class="row">
+                    @foreach (var a in row.QuestionMapping.Where(QusAns => QusAns.QUESTION_CD_ID == row1 && QusAns.DISEASE_CD_ID == row.DiseaseTypeId ))
+                    {
+                        @if (a.CONTROL_TYPE_ID == 1)
+                        {
+                            <div class="col-md-2">
+                                @Html.RadioButton(row1.ToString(), a.SGK_MAPPING_ID, new { @class = "form-check-input" })
+                                @Html.DisplayFor(OPTION => a.OPTION_NM)
+                            </div>
+                        }
+                        else if (a.CONTROL_TYPE_ID == 2)
+                        {
+                            <div class="col-md-2">
+                                @Html.CheckBox(row1.ToString(), false, new { value = a.SGK_MAPPING_ID, @checked = true, @class = "form-check-input" })
+                                @Html.DisplayFor(OPTION => a.OPTION_NM)
+                            </div>
+                        }
+                        else if (a.CONTROL_TYPE_ID == 3)
+                        {
+                            <div class="col-md-12">
+                                @Html.TextBox(a.SGK_MAPPING_ID.ToString(), "", new { @class = "form-control" })
+                            </div>
+                        }
+                    }
+                </div>
+                <hr />
+                <br />
+                }
+
+                <input type="submit" value="Submit" class="btn btn-primary" />
+                }
+                }

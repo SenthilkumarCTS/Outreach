@@ -1,0 +1,172 @@
+{
+  "Routes": [
+    {
+      "DownStreamPathTemplate": "/api/v1/member",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/member",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/member",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/member",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/user",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/user",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/user/authenticate",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/user/authenticate",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/user/GetUserLookUp",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/user/GetUserLookUp",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/user/NewUserRegister",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/user/NewUserRegister",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/CallTrack",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/CallTrack",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/CallTrack/CallTrackLookUp",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/CallTrack/CallTrackLookUp",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/CallTrack/SaveCallTrack",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/CallTrack/SaveCallTrack",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/Assessment/GetQuestion",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/Assessment/GetQuestion",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/Assessment",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/Assessment",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/Assessment/GetSavedAssessment",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/Assessment/GetSavedAssessment",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/v1/Assessment/SaveAssessment",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "59391"
+        }
+      ],
+      "UpstreamPathTemplate": "/v1/Assessment/SaveAssessment",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/memberservice",
+      "DownStreamScheme": "http",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "58682"
+        }
+      ],
+      "UpstreamPathTemplate": "/memberservice",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Model.deps.json
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Model.dll
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Model.pdb
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.dll
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\bin\Debug\netcoreapp3.1\MemberOutReachSystem.Domain.pdb
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Model.csprojAssemblyReference.cache
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Model.AssemblyInfoInputs.cache
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Model.AssemblyInfo.cs
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Model.csproj.CoreCompileInputs.cache
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Model.csproj.CopyComplete
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Model.dll
+C:\Users\ctsdotnetuser103\source\repos\MemberOutReachSystem.Business\obj\Debug\netcoreapp3.1\MemberOutReachSystem.Model.pdb

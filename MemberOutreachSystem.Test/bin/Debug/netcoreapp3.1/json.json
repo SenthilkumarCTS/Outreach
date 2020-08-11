@@ -1,0 +1,11 @@
+{
+  "datacenter": "aisa",
+  "data_dir": "D:\\data\\consul\\config",
+  "log_level": "INFO",
+  "node_name": "Member Outreach System",
+  "server": true,
+  "bind_addr": "172.18.52.144",
+  "bootstrap": true,
+  "ui": true,
+  "log_file": "D:\\data\\consul\\config\\consul.log"
+}

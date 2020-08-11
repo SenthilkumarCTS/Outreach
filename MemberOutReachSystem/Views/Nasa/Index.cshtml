@@ -1,0 +1,21 @@
+﻿@model MemberOutReachSystem.Domain.Root
+
+<h1> Nasa Details</h1>
+<br />
+
+    <span>Date :</span> @Html.DisplayFor(modelItem => @Model.date);
+    <br />
+    <div>
+        @Html.DisplayFor(modelItem => @Model.explanation);
+    </div>
+    <br />
+
+    <div>
+        <img src="@Url.Content(@Model.url)" alt="Image" />
+    </div>
+    <br />
+    <div>
+        <img src="@Url.Content(@Model.hdurl)" alt="Image" />
+    </div>
+
+

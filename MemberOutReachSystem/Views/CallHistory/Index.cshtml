@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MemberOutReachSystem.Domain.CallTrackDetail>
+
+<h1> Call History </h1>
+<hr />
+<div class="table-responsive">
+    <table id="MemberDetails" class="table table-striped table-bordered dt-responsive nowrap">
+        <caption>CallHistory</caption>
+        <thead>
+            <tr>
+                <th scope="col"> Member Name </th>
+                <th scope="col"> Relationship </th>
+                <th scope="col"> Call Status </th>
+                <th scope="col"> Call Outcome </th>                
+                <th scope="col"> Call DateTime </th>
+                <th scope="col"> Followup DateTime </th>
+                <th scope="col"> Call Notes </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var row in Model)
+            {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => row.CONTACT_NAME)</td>
+                <td>@Html.DisplayFor(modelItem => row.RELATIONSHIP_NM)</td>
+                <td>@Html.DisplayFor(modelItem => row.CALL_STATUS_NM)</td>
+                <td>@Html.DisplayFor(modelItem => row.CALL_OUTCOME_NM)</td>                
+                <td>@Html.DisplayFor(modelItem => row.Call_DateTime)</td>
+                <td>@Html.DisplayFor(modelItem => row.Reminder_Details)</td>
+                <td>@Html.DisplayFor(modelItem => row.Call_Notes)</td>
+            </tr>
+            }
+        </tbody>
+
+    </table>
+
+</div>
+
+<div>
+
+</div>

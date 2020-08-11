@@ -1,0 +1,137 @@
+﻿@model IEnumerable<MemberOutReachSystem.Domain.LookUpData>
+    <style>
+      /*  .button {
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+                .button span:after {
+                    content: '\00bb';
+                    position: absolute;
+                    opacity: 0;
+                    top: 0;
+                    right: -20px;
+                    transition: 0.5s;
+                }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+                .button:hover span:after {
+                    opacity: 1;
+                    right: 0;
+                }*/
+        .btn {
+            background-color: #ddd;
+            border: none;
+            color: black;
+            padding: 16px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition: 0.3s;
+        }
+
+            .btn:hover {
+                background-color: #3e8e41;
+                color: white;
+            }
+    </style>
+<div class="col-lg-12">
+    <div class="col-lg-2">
+
+    </div>
+    <div class="col-lg-10" style="align-content:center">
+        <div class="row">
+            <div class="col-lg-10">
+                <h1> Call Tracking </h1>
+            </div>
+            <div class="col-lg-2">
+                <input type="button" class="btn float-right" value="History " name="outreach" onclick="location.href='@Url.Action("Index", "CallHistory",new { mbrid = @ViewBag.MemberId })'" />
+            </div>
+        </div>
+        <hr />
+        @using (Html.BeginForm("SaveCallTracking", "CallTrack", FormMethod.Post, new { @class = "was-validated" }))
+        {
+            <div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="col">
+                            <label for="Cname" class="mr-sm-1">Contact Name:</label>
+                            <input type="text" name="Cname" class="form-control mb-3 mr-sm-3" id="Cname">
+                            <label for="CDateTime" class="mr-sm-1">Call Datetime:</label>
+                            <input type="text" name="CDateTime" class="form-control mb-3 mr-sm-3" id="CDateTime">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="col">
+                            <label for="ddlRelation" class="mr-sm-1">Contact Relation:</label>
+                            <select id="ddlRelation" name="ddlRelation" class="form-control">
+                                <option value="0">Please select</option>
+                                @foreach (var row in Model.Where(a => a.MOSLOOKUP == "RELATION"))
+                                {
+                                    <option value="@row.SGK_LOOKUP_ID">@row.LOOKUP_NAME</option>
+                                }
+                            </select>
+                            <label for="ddlStatus" class="mr-sm-1">Call Status:</label>
+                            <select id="ddlStatus" name="ddlStatus" class="form-control">
+                                <option value="0">Please select</option>
+                                @foreach (var row in Model.Where(a => a.MOSLOOKUP == "CALLSTATUS"))
+                                {
+                                    <option value="@row.SGK_LOOKUP_ID">@row.LOOKUP_NAME</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="col">
+                            <label for="ddlOutcome" class="mr-sm-1">Call Outcome:</label>
+                            <select id="ddlOutcome" name="ddlOutcome" class="form-control">
+                                <option value="0">Please select</option>
+                                @foreach (var row in Model.Where(a => a.MOSLOOKUP == "CALLOUTCOME"))
+                                {
+                                    <option value="@row.SGK_LOOKUP_ID">@row.LOOKUP_NAME</option>
+                                }
+                            </select>
+                            <label for="CNotes" class="mr-sm-1">Call Notes:</label>
+                            <input type="text" name="CNotes" class="form-control mb-2 mr-sm-2" id="CNotes">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="col">
+                            <label for="CReminder" class="mr-sm-1">Follow-Up</label>
+                            <input type="text" name="CReminder" class="form-control mb-2 mr-sm-2" id="CReminder">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </div>
+        }
+    </div>
+
+    
+    
+</div>
